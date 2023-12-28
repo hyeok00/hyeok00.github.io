@@ -1,0 +1,276 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name:  Ryu KiHyeok
+    tagline: Backend Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: hyeokkr@gmail.com
+    phone: 010-5042-9167
+    timezone: 
+    citizenship:
+    website: velog.io/@hyeokkr #do not add http://
+    github: hyeok00
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://drive.google.com/file/d/1EqZEhlP6vO2OOSrN7Q_tG3cSkojP5g5W/view?usp=sharing
+
+    # languages:
+    #   title: Languages
+    #   info:
+    #     - idiom: English
+    #       level: Native
+
+    #     - idiom: French
+    #       level: Professional
+
+    #     - idiom: Spanish
+    #       level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Climbing
+          link:
+
+        # - item: Snowboarding
+        #   link:
+
+        # - item: Cooking
+        #   link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      안녕하세요, 저는 모든 경험을 긍정적으로 받아들이는 개발자입니다.
+      학부생 시절 자연어 처리 연구실에서의 공부로 시작하여, 
+      차량용 내비게이션 지도 데이터 컴파일러 개발을 통해 세계의 전자 지도 제작에 기여하였습니다.
+      또한 Backend 교육을 수료하며 Spring 기반의 Backend 개발부터 임베디드까지 다양한 개발 경험을 쌓게 되었습니다.
+      이 경험은 제게 IT 분야의 다양성을 체험하게 해주었습니다.
+
+      제가 가장 중요하게 생각하는 것은 '소통'입니다. 
+      다양한 직무의 구성원들과 협업을 통해, 여러 가지 경험과 생각이 모일 때 가장 훌륭한 솔루션이 탄생한다는 것을 알게 되었습니다.
+      이러한 경험은 저를 더욱 유연하고 적응력 있는 개발자로 만들어 주었습니다.
+
+experiences:
+    title: Experiences
+    info:
+      - role: SoftWare Developer
+        time: 2020.08 - 2022.03
+        company: NAVIS-AMS
+        details: |
+          차량용 내비게이션 표준(NDS)에 맞는 전자 지도 개발(NDS Compiler)
+            - 사용 기술 : C, C++, MSSQL, SQLite
+            - 다양한 형식으로 전달되는 전 세계 데이터를 MSSQL에 적재하기 위한 SW개발.
+            - 전 세계 데이터를 담을 Table 설계.
+            - C++를 활용하여 MSSQL에 적재된 데이터를 특정 표준 형식에 맞게 전처리 및 변환 SW 개발
+            - 코드 최적화 및 테스트 코드 작성(GoogleTest)으로 코드 커버리지 확보.
+            - 쿼리 튜닝 작업을 통하여 모듈 수행 시간 20% 단축
+            - Nodejs를 활용하여 팀 내 Jira API기반 업무 지원 툴 개발
+      
+education:
+    title: Education
+    info:
+      - degree: 컴퓨터소프트웨어공학 - 학사
+        university: 금오공과대학교
+        time: 2014.03 - 2020.08
+        details: |
+            - 지식 언어 공학 연구실(자연어처리) 2018.06 - 2020.08
+      - degree: 삼성 청년 SW 아카데미
+        university: 삼성 청년 SW 아카데미
+        time: 2022.07 - 2023.06
+        # details: |
+        #   프로젝트 기반의 Web Backend 개발 교육
+        #     - Bullet point
+        #     - Bullet point
+
+certifications:
+      title: Certifications & Prize
+      list:
+        - name: SAFFY 공통프로젝트
+          start: 2023
+          organization: 삼성전자
+          credentialid: 우수상
+          details: |
+
+        - name: SQLD
+          start: 2019
+          end: #2021
+          # organization: Microsoft
+          # credentialid: 111-222
+          # credentialurl: www.google.com
+          # credentialname: Google
+          # details: |
+            #내용...
+
+        - name: 정보처리기사
+          start: 2019
+          end:
+          # organization: Microsoft
+          #credentialid: 111-222
+          # credentialurl: www.github.com
+          # credentialname: Github
+          # details: |
+            # Older certification. Lorem ipsum dolor sit amet, consectetur
+            # adipiscing elit.
+            # Nullam eget orci purus. Nullam ultrices neque nibh.
+            # Aenean fermentum, felis vulputate suscipit accumsan,
+            # sem enim bibendum augue, sed convallis arcu lacus at dui.
+            # Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+            # Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+            # Praesent venenatis erat non augue suscipit consectetur.
+        
+        - name: 국어 정보 처리 시스템 경진대회
+          start: 2019
+          organization: 국립국어원
+          credentialid: 금상
+          details: |
+
+projects:
+    title: Projects
+    intro: >
+      프로젝트 명을 클릭해서 상세 내용을 볼 수 있습니다.
+    assignments:
+      - title: Try-catch [2023]
+        link: "https://github.com/hyeok00/my_project/tree/main/TRY_CATCH"
+        tagline: "개발자를 위한 커뮤니티 한국판 Stack Overflow GitHub 정보를 바탕으로 기술 블로그 글 추천"
+        details: |
+          사용 기술
+            - Java(Spring Boot, Spring Security, JPA), SSE(Server Sent Event), MariaDB, H2, ElasticSearch, NLP Task
+
+          구현 기능
+            - MariaDB 및 Elastic Search 데이터 모델링
+            - 게시판 기능 구현을 포함한 RestAPI 설계 및 API 구현
+            - Spring Security + OAuth + JWT를 이용한 인증 모듈 구현
+            - Word Embbeding 및 Bert 모델을 활용한 관심사 매칭 로직 구현
+            - Junit을 활용한 Service 테스트 코드 작성
+
+      - title: Peeling-Onion [2023]
+        link: "https://github.com/hyeok00/my_project/tree/main/PeelingOnion"
+        tagline: "음성 메시지로 마음을 전달하는 서비스 (6인)"
+        details: |
+          사용 기술
+            - Java(Spring Boot(WebClient), JPA), FCM, MariaDB, Redis
+            
+          구현 기능
+            - MariaDB 데이터 베이스 설계
+            - MSA 기반의 아키텍쳐 설계 및 Service간 통신 코드 구현(WebClient)
+            - Backend API 구현
+            - FCM과 Redis를 활용한 알림 서비스 구현
+
+      - title: SDILink [2023]
+        link: "https://github.com/hyeok00/my_project/tree/main/SDILink"
+        tagline: "차량 보험사와 xEV 배터리 팩의 정보 연동 서비스 개발 (6인)"
+        details: |
+          사용 기술
+            - C, MariaDB, Python(FastAPI)
+            
+          구현 기능
+            - MariaDB 기반의 데이터베이스 설계
+            - 차량용 MCU모사를 위한 STM32 NucleoBoard 개발. (STM32CubeIDE)
+            - ESP8266 모듈 연결을 통해 FastAPI 서버와 통신 코드 구축 및 라이브러리 화
+
+      - title: 업무지원 툴 [2019]
+        link: "#"
+        tagline: "Jira API 기반의 업무 지원 툴 (1인)"
+        details: |
+          사용 기술
+            - Nodejs, MongoDB
+            
+          구현 기능
+            - worklog 관리 기능
+            - Task 메일링 서비스
+            - Task 상태 변경 관련 기능
+            - 개인 및 관리자용 기능
+
+      - title: PassMaster [2019]
+        link: "https://github.com/hyeok00/my_project/tree/main/PASSMASTER"
+        tagline: "AI면접을 대비할 수 있는 AI 면접 서비스 (3인)"
+        details: |
+          사용 기술
+            - Python(Flask, haarcascade), MySQL
+            
+          구현 기능
+            - 감성 사전 구축
+            - haarcascade를 활용한 eyetracking 구현
+            - Camera 연결- 웹 실시간 렌더링
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: C, C++
+        level: 83%
+
+      - name: Java & Spring
+        level: 80%
+
+      - name: Python & Flask
+        level: 40%
+
+      - name: JavaScript (Nodejs)
+        level: 50%
+
+      - name: MSSQL, MariaDB, MySQL, SQLite
+        level: 60%
+
+      - name: MongoDB, Redis
+        level: 55%
+
+
+# footer: >
+    #Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
