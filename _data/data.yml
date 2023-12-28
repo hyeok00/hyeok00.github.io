@@ -146,7 +146,7 @@ projects:
     assignments:
       - title: Try-catch [2023]
         link: "https://github.com/hyeok00/my_project/tree/main/TRY_CATCH"
-        tagline: "개발자를 위한 커뮤니티 한국판 Stack Overflow GitHub 정보를 바탕으로 기술 블로그 글 추천"
+        tagline: "개발자를 위한 커뮤니티 한국판 Stack Overflow GitHub 정보를 바탕으로 기술 블로그 글 추천 (6인)"
         details: |
           사용 기술
             - Java(Spring Boot, Spring Security, JPA), SSE(Server Sent Event), MariaDB, H2, ElasticSearch, NLP Task
