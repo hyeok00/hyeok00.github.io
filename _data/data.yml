@@ -14,7 +14,7 @@ sidebar:
 
     # Sidebar links
     email: hyeokkr@gmail.com
-    phone: 010-5042-9167
+    phone: #010-5042-9167
     timezone: 
     citizenship:
     website: velog.io/@hyeokkr #do not add http://
@@ -26,7 +26,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/file/d/1EqZEhlP6vO2OOSrN7Q_tG3cSkojP5g5W/view?usp=sharing
+    pdf: https://drive.google.com/file/d/1h9LaKJu-J0fiGtsDsmG03S-iJc2HKD0_/view?usp=sharing
 
     # languages:
     #   title: Languages
